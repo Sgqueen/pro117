@@ -1,0 +1,38 @@
+body{
+
+    background-color: darkorange;
+}
+
+h1{
+
+   color: hotpink; 
+   background-color: skyblue;
+}
+
+#show_sketch{
+
+    float:right;
+}
+
+canvas{
+
+    border: 5px solid teal;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from{box-shadow: 1px 1px 38px peru;}
+    to {box-shadow: 1px 1px 38px purple;}
+}
+
+p{
+
+    padding-top: 20px;
+    font-size: 32px;
+}
+
